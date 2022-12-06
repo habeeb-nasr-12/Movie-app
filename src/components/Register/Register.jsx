@@ -92,7 +92,7 @@ else{
 
 async function  senduser(){
 
-    let {data} = await axios.post("https://routeegypt.herokuapp.com/signup",user)
+    let {data} = await axios.post("https://sticky-note-fe.vercel.app/signup",user)
    
     setclickedbtn(false)
 

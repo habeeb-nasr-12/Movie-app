@@ -62,7 +62,7 @@ export function Login({Loginver}){
     }
 
     async function  senduser(){
-        let {data} = await axios.post("https://routeegypt.herokuapp.com/signin",user)
+        let {data} = await axios.post("https://sticky-note-fe.vercel.app/signin",user)
         setclickedbtn(false)
         if (data.message=="success"){
             localStorage.setItem("tkn",data.token)
